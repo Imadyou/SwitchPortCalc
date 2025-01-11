@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Port Kalkylator</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Port Kalkylator</h1>
+      <label for="port">Mata in portnummer:</label>
+      <input type="number" id="port">
+
+      <label for="switch">Välj Switch:</label>
+      <select id="switch">
+        <option value="1/1">Switch 1/1</option>
+        <option value="1/2">Switch 1/2</option>
+        <option value="2/1">Switch 2/1</option>
+        <option value="2/2">Switch 2/2</option>
+      </select>
+
+      <button onclick="calculatePort()">Kalkylera</button>
+
+      <p id="result"></p>
+    </div>
+
+    <footer>
+      &copy; Imad Yousef 2025
+      <div class="info">
+        imad.yousef@transtema.com
+        Tel:0761329052
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
